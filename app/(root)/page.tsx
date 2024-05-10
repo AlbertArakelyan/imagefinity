@@ -1,6 +1,11 @@
+import { UserButton } from '@clerk/nextjs';
+
 const Home = () => {
   return (
-    <div>home</div>
+    <div>
+      <div>home</div>
+      <UserButton afterSignOutUrl='/' />
+    </div>
   );
 };
 
