@@ -24,6 +24,7 @@ import {
 } from '@/components/ui/select';
 import { Input } from '@/components/ui/input';
 import { CustomField } from '@/components/shared/CustomField';
+import MediaUploader from '@/components/shared/MediaUploader';
 
 import { updateCredits } from '@/lib/actions/user.actions';
 
@@ -176,6 +177,22 @@ const TransformationForm = ({ action, data = null, type, userId, creditBalance, 
             ))}
           />
         )}
+        <div className="media-uploader-field">
+          <CustomField
+            className="flex size-full flex-col"
+            control={form.control}
+            name="publicId"
+            render={(({ field }) => (
+              <MediaUploader
+                onValueChange={field.onChange}
+                setImage={setImage}
+                publicId={field.value}
+                image={image}
+                type={type}
+              />
+            ))}
+          />
+        </div>
         <div className="flex flex-col gap-4">
           <Button
             className="submit-button capitalize"
