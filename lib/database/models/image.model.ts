@@ -1,6 +1,6 @@
 import { Schema, models, model, Document } from 'mongoose';
 
-interface IIMage extends Document {
+export interface IIMage extends Document {
   title: string;
   transformationType: string;
   publicId: string;
