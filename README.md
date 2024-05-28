@@ -1,5 +1,5 @@
 # Imagefinity
-![Screenshot](./public/screenshot.pn)
+![Screenshot](./public/screenshot.png)
 
 <div align="center">
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript">
