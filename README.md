@@ -24,3 +24,7 @@ npm install
 ```bash
 npm run dev
 ```
+
+---
+
+**Feeling lucky?** Give it a star ⭐ and fork for adding something from your side 😊.
