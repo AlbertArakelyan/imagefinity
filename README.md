@@ -19,7 +19,7 @@
 npm install
 ```
 - Don't forget abuot `env` variables, check `.env.example` file for knowing about them and putting your **API keys**
-- Also don't forget to connect your MongoDB via [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database).
+- Also don't forget to connect your **MongoDB** via [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database).
 - Start the project
 ```bash
 npm run dev
